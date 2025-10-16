@@ -66,7 +66,7 @@ export default function RapunzelInvitation() {
     const startDate = eventDate.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z"
     const endDate =
         new Date(eventDate.getTime() + 4 * 60 * 60 * 1000).toISOString().replace(/[-:]/g, "").split(".")[0] + "Z"
-    const calendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=XV%20A%C3%B1os%20de%20Alexandra%20L%C3%B3pez%20Segura&dates=${startDate}/${endDate}&details=Celebraci%C3%B3n%20de%20XV%20A%C3%B1os%20-%20Misa%206:30pm%20y%20Recepci%C3%B3n%208:00pm&location=Sal%C3%B3n%20de%20Eventos%20Villa%20Carolina`
+    const calendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=XV%20A%C3%B1os%20de%20Alexandra%20L%C3%B3pez%20Segura&dates=${startDate}/${endDate}&details=Celebraci%C3%B3n%20de%20XV%20A%C3%B1os%20-%20Misa%208:00pm%20y%20Recepci%C3%B3n%209:00pm&location=Sal%C3%B3n%20de%20Eventos%20Villa%20Carolina`
     window.open(calendarUrl, "_blank")
   }
 
