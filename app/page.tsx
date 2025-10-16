@@ -149,12 +149,12 @@ export default function RapunzelInvitation() {
                 <div className="space-y-3">
                   <div className="bg-purple-50 rounded-lg p-4">
                     <h4 className="font-semibold text-purple-700 mb-1">Misa Familiar</h4>
-                    <p className="text-sm">Salón de Eventos Villa Carolina - 6:30 PM</p>
+                    <p className="text-sm">Salón de Eventos Villa Carolina - 8:00 PM</p>
                   </div>
 
                   <div className="bg-purple-50 rounded-lg p-4">
                     <h4 className="font-semibold text-purple-700 mb-1">Recepción</h4>
-                    <p className="text-sm">Salón de Eventos Villa Carolina - 8:00 PM</p>
+                    <p className="text-sm">Salón de Eventos Villa Carolina - 9:00 PM</p>
                   </div>
                 </div>
               </div>
